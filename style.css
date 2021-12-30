@@ -1,0 +1,31 @@
+.table thead{
+  background-color: #dbdbdb;
+}
+
+.success, .error {
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+#remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.fa-times-circle {
+  font-size: 22px;
+  color: #222;
+}
+
+.fa-times-circle:hover {
+  color: red;
+}
